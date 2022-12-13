@@ -6,11 +6,13 @@ cd carpeta backend/ node index.js
 
 ## Paquenes necesarios
 
-npm install --save express
-npm install --save mysql
-npm install --save cors
-npm install commander
-npm install moment --save 
+```javascript
+- npm install --save express
+- npm install --save mysql
+- npm install --save cors
+- npm install commander
+- npm install moment --save 
+```javascript
 
 ## Cuestiones sobre mySQL
 
