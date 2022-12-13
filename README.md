@@ -12,11 +12,13 @@ cd carpeta backend/ node index.js
 - npm install --save cors
 - npm install commander
 - npm install moment --save 
-```javascript
+```
 
 ## Cuestiones sobre mySQL
 
+```sql
 CREATE USER 'usuario'@'%' IDENTIFIED BY '123';
 GRANT ALL PRIVILEGES ON * . * TO 'usuario'@'%';
 para poder acceder desde root
 ALTER USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'userPass';
+```
